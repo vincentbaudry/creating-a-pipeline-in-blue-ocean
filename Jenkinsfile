@@ -13,7 +13,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Test') {
       environment {
         CI = 'true'
       }
